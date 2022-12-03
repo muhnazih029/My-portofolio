@@ -1,0 +1,102 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: large;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+.foto {
+  height: 100vh;
+  padding-top: 6rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), url("Galeri/4884273.jpg");
+  background-size: cover;
+}
+h2 {
+  font-size: 72px;
+  background: linear-gradient(270deg, #3f5efb, #fc466b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h3 {
+  font-size: 72px;
+  background: linear-gradient(270deg, #0cf43e, #09d2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lead {
+  color: white;
+  margin-right: 20rem;
+  margin-left: 20rem;
+}
+#about {
+  background: linear-gradient(rgb(3, 8, 28), rgb(12, 37, 94));
+}
+.paragraf {
+  padding-right: 12rem;
+  padding-left: 12rem;
+}
+#galeri {
+  margin-bottom: 14rem;
+}
+.card {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 61px;
+  background: #e0e0e0;
+  box-shadow: 6px 6px 12px #bebebe, -6px -6px 12px #ffffff;
+}
+#contact {
+  background-image: url("Galeri/4884841.jpg");
+  background-size: cover;
+}
+.akhiran {
+  background-color: rgb(12, 41, 105);
+  padding-bottom: 1rem;
+}
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.button {
+  border-radius: 50px;
+}
+.comment {
+  padding-right: 15rem;
+  padding-left: 15rem;
+}
+.tombol {
+  overflow-y: hidden;
+  position: relative;
+  width: 70px;
+  height: 30px;
+  font-size: 10px;
+  background-color: rgb(255, 255, 255);
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: width 0.5s, border-radius 0.5s;
+}
+.tombol * {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.25s;
+}
+.terkirim {
+  opacity: 0;
+}
+.tombol:focus {
+  width: 30px;
+  background-color: #6fff00;
+  border-radius: 50%;
+}
+.tombol:focus .text {
+  opacity: 0;
+}
+.tombol:focus .terkirim {
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+section {
+  padding-top: 5rem;
+}
